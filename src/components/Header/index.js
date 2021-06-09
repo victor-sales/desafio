@@ -7,8 +7,8 @@ function Header({logout, user}) {
     return(
         <AreaHeader>
             <div className="container">
-                {/* <label id="label-btn-menu">&#9776;</label>
-                <input type="checkbox" id="btn-menu"></input> */}
+                <label htmlFor="btn-menu" id="label-btn-menu">&#9776;</label>
+                <input type="checkbox" id="btn-menu"></input>
                 <nav className="menu-principal">
                     <ul>
                         <li>Configurações</li>
